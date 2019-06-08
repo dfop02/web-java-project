@@ -1,4 +1,4 @@
-# web-java-project
+# Web Java Project
 A web java project to object-oriented programming II 
 
 ### How Play?
