@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+.horizon-middle {
+	width: 50%;
+	heigh: auto;
+	margin: auto 1%;
+}
+.shorts {
+	width: 10%;
+	heigh: auto;
+	margin: auto 1%;
+}
+.container {
+  height: 600px;
+  background:#f4f4f2;
+  border:2px solid black;
+  margin: 2em auto 4em auto;
+}
+
+.warning {
+	color: red;
+	width: 20%;
+	margin: 1em auto;
+}

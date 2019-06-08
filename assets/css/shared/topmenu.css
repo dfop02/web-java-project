@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html {
+  position: relative; 
+  min-height: 100%;
+}
+
+.navbar-dark .navbar-brand {
+	font-family: 'Oswald', sans-serif;
+	color: #28a745;
+	border-right: 1px solid #fff;
+    margin-right: 0.5rem;
+    padding-right: 1rem;
+}
+
+.btn-custom-outline-success {
+    color: #fff;
+	border: 1px solid;
+	border-radius: 5px;
+    border-color: #343a40;
+    transition-property: color border-color;
+	transition-duration: 0.5s;
+}
+
+.btn-custom-outline-success:hover, .btn-custom-outline-success:focus {
+    color: #28a745 !important;
+    border-color: #28a745;
+    transition-property: color border-color;
+	transition-duration: 0.5s;
+}
+
+.welcome p {
+    font-family: 'Oswald', sans-serif;
+    color: #28a745;
+    font-size: 1.4em;
+    margin: auto 1em;
+}
+
+/* BUTTOM ANIMATION */
+
+@keyframes btn2 {
+	0% {
+		transform:rotate(0);
+	}
+	25% {
+		transform:rotate(10deg);
+	}
+	50% {
+		transform:rotate(0);
+	}
+	75% {
+		transform:rotate(-10deg);
+	}
+	100% {
+		transform:rotate(0);
+	}
+}
+
+.btn-2 {
+	transition: .5s;
+}
+
+.btn-2:hover {
+	animation-name: btn2;
+	animation-delay: .5s;
+	animation-duration: .5s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1
+}

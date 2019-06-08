@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+/* CAROUSEL CUSTOMS */
+
+/*
+Already Imported in Top Menu
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+*/
+
+.horizon-middle {
+	width: 100%;
+	heigh: auto;
+	margin: auto 0;
+}
+
+.featured-text p {
+	font-family: 'Oswald', sans-serif;
+	margin: 10px 4px;
+	padding-left: 54px;
+    font-size: xx-large;
+}
+
+.carousel-item {
+	margin: 0 5.5%;
+}
+
+.carousel-item img {
+	width: 17.5% !important;
+	padding: 20px 0px !important;
+	margin-left: 0;
+	-webkit-transition-property: transform margin-left; /* Safari/IE */
+	-webkit-transition-duration: 0.5s;                  /* Safari/IE */
+	transition-property: transform margin-left;
+	transition-duration: 0.5s;
+}
+
+.carousel-item:hover {
+	-webkit-transform: translate3d(-35px, 0, 0);
+	transform: translate3d(-35px, 0, 0);
+}
+
+
+.carousel-item:hover img:hover {
+	transform: scale(1.1);
+	margin-left: 40px;
+	-webkit-transition-property: transform margin-left; /* Safari/IE */
+	-webkit-transition-duration: 0.5s;                  /* Safari/IE */
+	transition-property: transform margin-left;
+	transition-duration: 0.5s;
+}
+
+.carousel-item:hover img {
+	transform: translate3d(20px, 0, 0);
+	-webkit-transition-property: transform margin-left; /* Safari/IE */
+	-webkit-transition-duration: 0.5s;                  /* Safari/IE */
+	transition-property: transform margin-left;
+	transition-duration: 0.5s;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	width: 5%;
+	filter: invert(100%);
+}
+
+/* END CAROUSEL CUSTOMS */

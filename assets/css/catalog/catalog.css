@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+.modal-dialog-centered::before {
+	content: none !important;
+}
+
+.horizon-middle:last-of-type {
+	margin-bottom: 4em;
+}
