@@ -11,7 +11,7 @@ We use [Bootstrap](https://getbootstrap.com/), [Jquery](https://jquery.com/) and
 
 * [Diogo Fernandes](https://github.com/dfop02)
 * [Leonardo Fernandes](https://github.com/8bitsL)
-* Erick Motta
+* [Erick Motta](https://github.com/errocritico)
 * Robson Cesar
 
 ### License
